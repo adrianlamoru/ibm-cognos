@@ -1,0 +1,1400 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <link rel="shortcut icon" href="//www.ibm.com/favicon.ico" />
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+
+    <link rel="canonical" href="http://www.ibm.com/link_label_1.html" />
+    <meta name="geo.country" content="US" />
+    <meta name="dcterms.rights" content="© Copyright IBM Corp. 2018" />
+    <meta name="dcterms.date" content="" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="robots" content="index, follow" />
+
+    <title>IBM Cognos Analytics interactive demo</title>
+
+    <script>
+        digitalData = {
+            "page": {
+                "category": {
+                    "primaryCategory": "IBM_Analytics_WACA_CognosAnalytics"
+                },
+                "pageInfo": {
+                    "effectiveDate": "2019-07-09",
+                    "expiryDate": "2024-07-09",
+                    "language": "en-US",
+                    "publishDate": "2019-06-26",
+                    "publisher": "IBM Corporation",
+                    "version": "v18",
+                    "pageID": "http://experience-ca.mybluemix.net",
+                    "ibm": {
+                        "contentDelivery": "HTML",
+                        "contentProducer": "IBM Northstar Template Generator 2.0",
+                        "country": "US",
+                        "industry": "",
+                        "owner": "David Springgay/Canada/IBM",
+                        "siteID": "IBM_Analytics",
+                        "subject": "IBM Cognos Analytics Products Tour",
+                        "type": "REPLACE",
+
+                    }
+
+
+                }
+            }
+        };
+    </script>
+
+
+
+    <script src="https://1.www.s81c.com/common/stats/ida_stats.js"></script>
+    <link href="https://1.www.s81c.com/common/v18/css/www.css" rel="stylesheet" />
+    <link href="https://1.www.s81c.com/common/v19a/css/www.css" rel="stylesheet" />
+    <link href="https://1.www.s81c.com/common/v18/css/grid-fluid.css" rel="stylesheet" />
+    <script src="https://1.www.s81c.com/common/v18/js/www.js"></script>
+    <script src="https://1.www.s81c.com/common/v19a/js/www.js"></script>
+    <script src="https://www.ibm.com/common/digitaladvisor/cm-app/latest/cm-app.min.js" defer></script>
+
+
+    <!-- <script type="text/javascript">
+        IBMCore.common.util.config.set({
+            "masthead": {
+                "type": "alternate"
+            },
+            "footer": {
+                "type": "default",
+                "socialLinks": {
+                    "enabled": false
+                }
+            }
+        });
+    </script>-->
+
+
+    <link href="styles.css" rel="stylesheet" />
+
+</head>
+
+<body id="ibm-com" class="ibm-type">
+    <div id="ibm-top" class="ibm-landing-page">
+
+        <!-- MASTHEAD_BEGIN -->
+        <div id="ibm-masthead" role="banner" aria-label="IBM">
+            <div id="ibm-mast-options">
+                <ul role="toolbar" aria-labelledby="ibm-masthead">
+                    <li id="ibm-geo" role="presentation">
+                        <a href="http://www.ibm.com/planetwide/select/selector.html">United States</a></li>
+                </ul>
+            </div>
+            <div id="ibm-universal-nav">
+                <nav role="navigation" aria-label="IBM">
+
+                    <div id="ibm-home"><a href="//www.ibm.com/us-en/">IBM®</a></div>
+
+
+                    <div class="ibm-sitenav-cloud-menu ibm-hidden-medium ibm-hidden-small">
+                        <ul>
+                            <li role="presentation" class="ibm-haschildlist">
+                                <a role="button" href="" class="ibm-chevron-down-link">Analytics</a>
+                                <ul role="menubar">
+                                    <li><a href="https://www.ibm.com/analytics">Home</a></li>
+                                    <li><a href="https://www.ibm.com/analytics/products">Products</a></li>
+                                    <li><a href="https://www.ibm.com/analytics/solutions">Solutions</a></li>
+                                    <li><a href="https://www.ibm.com/analytics/blogs">Blogs</a></li>
+                                    <li><a href="https://www.ibm.com/events/analytics">Events</a></li>
+                                    <li><a href="https://www.ibm.com/analytics/services">Services</a></li>
+                                    <li><a href="https://www.ibm.com/analytics/communities">Communities</a></li>
+                                    <li><a href="https://www.ibm.com/analytics/support">Products Support</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <ul id="ibm-menu-links" role="toolbar" aria-label="Site map">
+                        <li><a href="http://www.ibm.com/sitemap/us/en/">Site map</a></li>
+                    </ul>
+
+
+                    <div id="ibm-search-module" role="search" aria-labelledby="ibm-masthead">
+                        <form id="ibm-search-form" action="https://www.ibm.com/Search/" method="get" aria-labelledby="ibm-masthead">
+                            <p>
+                                <label for="q">IBM</label>
+                                <input type="text" maxlength="100" value="" placeholder="Search" name="q" id="q" aria-label="Search" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-owns="ibm-search-typeahead-container">
+                                <input name="lnk" type="hidden" value="mhsrch">
+                                <input type="hidden" value="18" name="v">
+                                <input type="hidden" value="utf" name="en">
+                                <input type="hidden" value="en" name="lang">
+                                <input type="hidden" value="us" name="cc">
+                                <span class="ibm-search-scope"><input class="ibm-styled-checkbox" data-init="false" type="checkbox" name="sn" value="" id="ibm-mh-scopeoption"> <label for="ibm-mh-scopeoption">In Marketplace</label></span><button role="button"
+                                    type="submit" id="ibm-search" class="ibm-search-link" value="Submit"><span class="ibm-access">Submit</span></button>
+                            </p>
+                        </form>
+                    </div>
+
+                </nav>
+            </div>
+        </div>
+        <!-- MASTHEAD_END -->
+
+        <div id="ibm-content-wrapper">
+            <div class="ibm-sitenav-menu-container" role="navigation" aria-label="" data-widgetprocessed="true">
+                <div class="ibm-sitenav-menu-name" role="presentation">
+                    <a aria-label="Overview" href="https://www.ibm.com/products/cognos-analytics" role="menuitem">
+                        Cognos Analytics
+                    </a>
+                </div>
+                <div class="ibm-sitenav-menu-list">
+                    <ul role="menubar">
+                        <li role="presentation">
+                            <a href="https://www.ibm.com/products/cognos-analytics" role="menuitem" target="_self" tabindex="0">
+                                Overview
+                            </a>
+                        </li>
+                        <li role="presentation">
+                            <a href="https://www.ibm.com/products/cognos-analytics/pricing" role="menuitem" target="_self" tabindex="-1">
+                                Pricing
+                            </a>
+                        </li>
+                        <li role="presentation" class="ibm-haschildlist">
+                            <button role="menuitem" tabindex="-1">    <span> Resources</span>
+                            </button>
+                            <ul role="menu" class="" style="width: 174.938px;">
+                                <li role="presentation">
+                                    <a href="https://www.ibm.com/mysupport/s/topic/0TO500000002XZrGAM/" role="menuitem" target="_self">
+                                        Support
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="https://www.ibm.com/communities/analytics/cognos-analytics/" role="menuitem" target="_self">
+                                        Community
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="https://www.ibm.com/blogs/business-analytics" role="menuitem" target="_self">
+                                        Blog
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="http://localhost:63342/products/cognos-analytics/resources" role="menuitem" target="_self">
+                                        Resource library
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li role="presentation" class="ibm-sitenav-menu-item-right">
+                            <p class="ibm-button-link">
+                                <a class="ibm-btn-pri ibm-btn-systems-blue-60" type="button" role="menuitem" href="https://www.ibm.com/account/reg/signup?formid=urx-34710" tabindex="-1" style="color:white !important;">
+                                    Start your free trial
+                                </a>
+                            </p>
+                        </li>
+                        <li role="presentation" class="ibm-sitenav-menu-item-right">
+                            <a role="menuitem" href="https://www.ibm.com/account/reg/login?formid=urx-34710" tabindex="-1">
+                                Sign in
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <header role="banner" aria-labelledby="ibm-pagetitle-h1">
+
+                <!-- LEADSPACE_BEGIN -->
+                <!--<div id="ibm-leadspace-head" class="ibm-alternate">
+                    <div id="ibm-leadspace-body" class="ibm-padding-top-2 ibm-padding-bottom-1">
+
+                    </div>
+                </div>-->
+                <!-- LEADSPACE_END -->
+
+            </header>
+
+            <main role="main" aria-labelledby="ibm-pagetitle-h1" id="main">
+                <div id="ibm-pcon">
+                    <div id="ibm-content">
+                        <div id="ibm-content-body">
+
+                            <div id="ibm-content-main">
+                                <!-- CONTENT_MAIN_BEGIN -->
+                                <div id="content-main-fullscreen">
+                                    <div class="ibm-grid-container ibm-textcolor-white-core" id="block1">
+                                        <div class="ibm-grid-col-sm-4-0 ibm-grid-col-md-8-0 ibm-grid-col-lg-16-1"></div>
+
+                                        <div class="ibm-grid-col-sm-4-4 ibm-grid-col-md-8-3 ibm-grid-col-lg-16-7" id="divtext" style=" position:relative; ">
+
+                                            <br><br>
+                                            <p class="ibm-type-g" id="textheader">Learn how Cognos Analytics<br>can help you make better business decisions, faster.</p>
+
+                                        </div>
+                                        <div class="ibm-grid-col-sm-4-0 ibm-grid-col-md-8-3 ibm-grid-col-lg-16-4"></div>
+                                        <div class="ibm-grid-col-sm-4-2 ibm-grid-col-md-8-2 ibm-grid-col-lg-16-3" id="divlogo" style="position:relative; ">
+                                            <img src="static/images/logo.png" id="logo" style="max-height:200px;">
+                                        </div>
+                                        <div class="ibm-grid-col-sm-4-0  ibm-grid-col-lg-16-1"></div>
+
+                                    </div>
+
+                                    <div class="ibm-grid-container ibm-textcolor-white-core second-block">
+                                        <div class="ibm-grid-col-sm-4-0 ibm-grid-col-lg-16-7"></div>
+                                        <div class="ibm-grid-col-sm-4-4 ibm-grid-col-lg-16-2">
+
+                                            <center>
+                                                <div class="scroll"> <span class="ibm-type-c">Scroll down</span><br><span class="chevron bottom"></span> </div>
+                                            </center>
+
+                                        </div>
+                                        <div class=" ibm-grid-col-sm-4-0 ibm-grid-col-lg-16-7"></div>
+                                    </div>
+                                </div>
+                                <div class="section-1">
+                                    <div class="ibm-grid-container ibm-textcolor-white-core" id="block2" >
+                                        <div class="ibm-grid-col-lg-16-1"></div>
+                                        <div class="ibm-grid-col-sm-4-2 ibm-grid-col-md-8-2 ibm-grid-col-lg-16-3 first">
+
+                                            <img src="static/images/1_band_sequence/Amber_first_sequence.svg" id="Amber_first_sequence" style="padding-top:100px; visibility:hidden;">
+                                        </div>
+                                        <div class="ibm-grid-col-sm-4-2 ibm-grid-col-md-8-2 ibm-grid-col-lg-16-3"></div>
+
+                                        <div class="ibm-grid-col-sm-4-4 ibm-grid-col-md-8-4 ibm-grid-col-lg-16-9 ibm-grid-col-seamless" id="divambersecond" style=" position:relative;">
+                                            <img src="static/images/1_band_sequence/Amber_second_sequence.svg" id="Amber_second_sequence" style="visibility:hidden; ">
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="ibm-grid-container ibm-textcolor-white-core " id="block3" style=" position: relative; display:flex; justify-content:center; ">
+                                    <div class="ibm-grid-col-lg-16-1"></div>
+                                    <div class="ibm-grid-col-sm-4-4 ibm-grid-col-md-8-4 ibm-grid-col-lg-16-6 meet-amber" id="divambertext" style="position:relative;">
+                                        <p class="ibm-type-c ibm-type-c--tight"><span class="text1" style="opacity:0;"> <span class="ibm-type-e"><br> Meet Amber </span><br><br>She’s the co-founder of Beanie, a coffee shop with three locations in New York.<br><br> The business is doing well,
+                                            but she’d like to identify the factors that contribute to Beanie’s success and, ultimately, make data-informed decisions. <br><br>She is drowning in spreadsheets.</p>
+                                        </span>
+                                    </div>
+                                    <div class="ibm-grid-col-md-8-1 ibm-grid-col-lg-16-3"></div>
+                                    <!--div class="ibm-grid-col-sm-4-2">  </div-->
+                                    <div class="ibm-grid-col-sm-4-3 ibm-grid-col-md-8-3 ibm-grid-col-lg-16-6 " style="position:relative; display: flex;  align-items: flex-end;" id="Amber_third_container">
+                                        <img src="static/images/1_band_sequence/Amber_third_sequence.svg" id="Amber_third_sequence" style="visibility:hidden; width: 100%;
+                                        flex-basis: 100%;
+                                         max-width: 100%;">
+                                    </div>
+                                </div>
+                                <!-- CONTENT_MAIN_END -->
+                            </div>
+
+                            <div id="ibm-white-section-1" class="ibm-background-white-core ibm-padding-top-90 ibm-padding-bottom-3 ibm-textcolor-black-core">
+                                <div class="ibm-grid-container ibm-textcolor-black">
+                                    <div class="ibm-grid-col-lg-16-1 ibm-grid-col-md-8-1">
+                                    </div>
+                                    <div class="ibm-grid-col-lg-16-14 ibm-grid-col-md-8-6">
+                                        <div class="ibm-grid-container">
+                                            <div class="ibm-grid-col-lg-16-7 ibm-grid-col-md-8-5 ibm-grid-col-sm-4-4 ibm-over-width">
+                                                <h1 class="ibm-h1 ibm-bold">
+                                                    Connect and combine your data effortlessly
+                                                </h1>
+                                            </div>
+                                            <div class="ibm-grid-col-lg-16-9 ibm-grid-col-md-8-3"></div>
+                                        </div>
+                                        <div class="ibm-padding-top-30">
+                                            <div class="ibm-grid-container">
+                                                <div class="ibm-grid-col-lg-16-4 ibm-grid-col-md-8-4 ibm-grid-col-sm-4-4 text-square-container ">
+
+                                                    <div id="blue-rectangle-1" class="ibm-background-blue-110 ibm-textcolor-white-core ibm-padding-top-2 ibm-padding-left-1 ibm-padding-right-1 ibm-padding-bottom-2 text-square" style="opacity:0">
+                                                        <p id="textblue1" style="visibility: hidden;">Amber signs into Cognos Analytics and uploads her point of sale, inventory and staffing data.</p>
+                                                        <p class="ibm-padding-bottom-0" id="textblue2" style="visibility: hidden;">Cognos Analytics verifies her data and helps join the various spreadsheets into a single, manageable data module.</p>
+                                                        <div class="right-rectangle" id="right-rectangle-1"></div>
+                                                    </div>
+
+
+
+                                                </div>
+                                                <div class="ibm-grid-col-lg-16-12 ibm-grid-col-md-8-4 ibm-grid-col-sm-4-4 image-container">
+                                                    <video class="ibm-image" src="static/videos/01_Drag_and_drop.mp4" width=100% playsinline autoplay muted loop> </video>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="ibm-padding-top-30">
+                                            <div class="ibm-grid-container">
+                                                <div class="ibm-grid-col-lg-16-8 ibm-grid-col-md-8-4 ibm-grid-col-sm-4-4">
+                                                    <h4 class="ibm-h4 ibm-bold">
+                                                        Any data
+                                                    </h4>
+                                                    <span>
+                                                        Connect to wide variety of different data sources or upload&nbsp;spreadsheets.
+                                                    </span>
+                                                </div>
+
+                                                <div class="ibm-grid-col-lg-16-8 ibm-grid-col-md-8-4 ibm-grid-col-sm-4-4">
+                                                    <h4 class="ibm-h4 ibm-bold ibm-second-pr">
+                                                        Connected insights
+                                                    </h4>
+                                                    <span>
+                                                        Your data is more powerful when it is connected. Cognos Analytics will help you auto-join multiple sources into a single trusted data module. The bigger the module, the deeper the insights.
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="ibm-grid-col-lg-16-1 ibm-grid-col-md-8-1"></div>
+                                </div>
+
+                            </div>
+                            <div class="ibm-background-white-core">
+                                <div class="ibm-grid-container">
+                                    <div class="ibm-grid-col-lg-16-16 ibm-grid-col-md-8-8 ibm-grid-col-sm-4-4">
+
+                                        <div class="divider-one" id="div-one"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div id="ibm-white-section-2" class="ibm-background-white-core ibm-padding-top-90 ibm-padding-bottom-3 ibm-textcolor-black-core">
+                                <div class="ibm-grid-container ibm-textcolor-black">
+                                    <div class="ibm-grid-col-lg-16-1 ibm-grid-col-md-8-1">
+                                    </div>
+                                    <div class="ibm-grid-col-lg-16-14 ibm-grid-col-md-8-6">
+                                        <div class="ibm-grid-container">
+                                            <div class="ibm-grid-col-lg-16-7 ibm-grid-col-md-8-5">
+                                                <h1 class="ibm-h1 ibm-bold">
+                                                    Visualize your business performance, beautifully
+                                                </h1>
+                                            </div>
+                                            <div class="ibm-grid-col-lg-16-9 ibm-grid-col-md-8-3"></div>
+                                        </div>
+                                        <div class="ibm-padding-top-30">
+                                            <div class="ibm-grid-container">
+                                                <div class="ibm-grid-col-lg-16-4 ibm-grid-col-md-8-4 ibm-grid-col-sm-4-4 text-square-container">
+
+                                                    <div id="blue-rectangle-2" class="ibm-background-blue-110 ibm-textcolor-white-core ibm-padding-top-2 ibm-padding-left-1 ibm-padding-right-1 ibm-padding-bottom-2 text-square" style="opacity:0">
+                                                        <p id="textblue3" style="visibility: hidden;">Amber creates a Dashboard to track Beanie’s sales and operational performance over time.</p>
+                                                        <p class="ibm-padding-bottom-0" id="textblue4" style="visibility: hidden;">She drags and drops data onto the Canvas and Cognos Analytics auto-generates relevant visualizations.</p>
+                                                        <div class="right-rectangle" id="right-rectangle-2"></div>
+                                                    </div>
+
+
+                                                </div>
+                                                <div class="ibm-grid-col-lg-16-12 ibm-grid-col-md-8-4 ibm-grid-col-sm-4-4 image-container">
+                                                    <video class="ibm-image" src="static/videos/02_Dashboard_building.mp4" width=100% playsinline autoplay muted loop> </video>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="ibm-padding-top-30">
+
+                                            <div class="ibm-grid-container">
+                                                <div class="ibm-grid-col-lg-16-8 ibm-grid-col-md-8-4 ibm-grid-col-sm-4-4">
+                                                    <h4 class="ibm-h4 ibm-bold">
+                                                        Find meaning in your data
+                                                    </h4>
+                                                    <span>
+                                                        Understand your data with compelling, informative and interactive visualizations.
+                                                    </span>
+                                                </div>
+
+                                                <div class=" ibm-grid-col-lg-16-8 ibm-grid-col-md-8-4 ibm-grid-col-sm-4-4">
+                                                    <h4 class="ibm-second-pr ibm-h4 ibm-bold">
+                                                        Beautiful. Simply.
+                                                    </h4>
+                                                    <span>
+                                                        Cognos Analytics Dashboards are beautiful. Take advantage of an extensive selection of visualizations, including embedded geospatial mapping and advanced analytics.
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="ibm-grid-col-lg-16-1 ibm-grid-col-md-8-1"></div>
+                                </div>
+
+                            </div>
+
+                            <div id="ibm-white-section-3" class="ibm-background-white-core ibm-padding-bottom-3 ibm-textcolor-black-core">
+                                <div class="ibm-grid-container ibm-textcolor-black">
+                                    <div class="ibm-grid-col-lg-16-1 ibm-grid-col-md-8-1">
+                                    </div>
+                                    <div class="ibm-grid-col-lg-16-14 ibm-grid-col-md-8-6">
+                                        <div class="ibm-padding-top-30">
+                                            <div class="ibm-grid-container">
+
+                                                <div id="image3" class="ibm-grid-col-lg-16-12 ibm-grid-col-md-8-4 ibm-grid-col-sm-4-4 image-container">
+                                                    <video class="ibm-image" src="static/videos/03_Assistant_chat.mp4" width=100% playsinline autoplay muted loop></video>
+                                                </div>
+                                                <div id="text3" class="ibm-grid-col-lg-16-4 ibm-grid-col-md-8-4 ibm-grid-col-sm-4-4 text-square-container">
+
+                                                    <div id="blue-rectangle-3" class="ibm-background-blue-110 ibm-textcolor-white-core ibm-padding-top-2 ibm-padding-left-1 ibm-padding-right-1 ibm-padding-bottom-2 text-square ibm-margin-left-75" style="opacity:0">
+
+                                                        <p id="textblue5" style="visibility: hidden;">Amber asks the AI Assistant to "Compare product sales by category."</p>
+                                                        <p class="ibm-padding-bottom-0" id="textblue6" style="visibility: hidden;">Cognos Analytics responds with a map visualization, a bar chart and a few others. She adds the map visualization to her Dashboard.</p>
+                                                        <div class="left-rectangle" id="left-rectangle-3"></div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="ibm-padding-top-30 ">
+                                            <div class="ibm-grid-container">
+                                                <div class="ibm-grid-col-lg-16-8 ibm-grid-col-md-8-4 ibm-grid-col-sm-4-4">
+                                                    <h4 class="ibm-h4 ibm-bold">
+                                                        Communicate in plain language
+                                                    </h4>
+                                                    <span>
+                                                        The AI Assistant communicates in plain English. Ask questions about your data and receive recommended visualizations, insights and more in a format you can&nbsp;understand.
+                                                    </span>
+                                                </div>
+
+                                                <div class=" ibm-grid-col-lg-16-8 ibm-grid-col-md-8-4 ibm-grid-col-sm-4-4">
+                                                    <h4 class="ibm-second-pr ibm-h4 ibm-bold">
+                                                        Built for ease of use
+                                                    </h4>
+                                                    <span>
+                                                        The system will automatically recommend the best visualizations based on the data you selected. You can also select your own from the library of different visualizations.
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="ibm-grid-col-lg-16-1 ibm-grid-col-md-8-1"></div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="ibm-background-white-core">
+                                <div class="ibm-grid-container">
+                                    <div class="ibm-grid-col-lg-16-16 ibm-grid-col-md-8-8 ibm-grid-col-sm-4-4">
+
+                                        <div class="divider-two" id="div-two"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="ibm-white-section-4" class="ibm-background-white-core ibm-padding-top-90 ibm-padding-bottom-3 ibm-textcolor-black-core">
+                                <div class="ibm-grid-container ibm-textcolor-black">
+                                    <div class="ibm-grid-col-lg-16-1 ibm-grid-col-md-8-1">
+                                    </div>
+                                    <div class="ibm-grid-col-lg-16-14 ibm-grid-col-md-8-6">
+                                        <div class="ibm-grid-container">
+                                            <div class="ibm-grid-col-lg-16-7 ibm-grid-col-md-8-5">
+                                                <h1 class="ibm-h1 ibm-bold">
+                                                    These Dashboards<br>are alive
+                                                </h1>
+                                            </div>
+                                            <div class="ibm-grid-col-lg-16-9 ibm-grid-col-md-8-3"></div>
+                                        </div>
+                                        <div class="ibm-padding-top-30">
+                                            <div class="ibm-grid-container">
+                                                <div class="ibm-grid-col-lg-16-4 ibm-grid-col-md-8-4 ibm-grid-col-sm-4-4 text-square-container">
+
+                                                    <div id="blue-rectangle-4" class="ibm-background-blue-110 ibm-textcolor-white-core ibm-padding-top-2 ibm-padding-left-1 ibm-padding-right-1 ibm-padding-bottom-2 text-square" style="opacity:0">
+                                                        <p id="textblue7" style="visibility: hidden;">Amber studies her dashboard.</p>
+                                                        <p id="textblue8" style="visibility: hidden;">In Sales by Category, she drills down to discover that Brasileiro Espresso is selling poorly.</p>
+                                                        <p class="ibm-padding-bottom-0" id="textblue9" style="visibility: hidden;">In Spoilage by Type, she discovers that her Artisanal Scones are sitting on the shelf and spoiling.</p>
+                                                        <div class="right-rectangle" id="right-rectangle-4"></div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="ibm-grid-col-lg-16-12 ibm-grid-col-md-8-4 ibm-grid-col-sm-4-4 image-container">
+                                                    <video class="ibm-image" src="static/videos/04_Drill_down.mp4" width=100% playsinline autoplay muted loop></video>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="ibm-padding-top-30">
+                                            <div class="ibm-grid-container">
+                                                <div class="ibm-grid-col-lg-16-8 ibm-grid-col-md-8-4 ibm-grid-col-sm-4-4">
+                                                    <h4 class="ibm-h4 ibm-bold">
+                                                        Take a deeper look
+                                                    </h4>
+                                                    <span>
+                                                                
+                                                        Investigate your data using Drill Down, Drill Ups and Drill&nbsp;Throughs.
+                                                    </span>
+                                                </div>
+
+                                                <div class=" ibm-grid-col-lg-16-8 ibm-grid-col-md-8-4 ibm-grid-col-sm-4-4">
+                                                    <h4 class="ibm-second-pr ibm-h4 ibm-bold">
+                                                        Responsive
+                                                    </h4>
+                                                    <span>
+                                                                
+                                                                As you drill down, the whole Dashboard updates to match the slice of data you’re investigating.
+                                                        </span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="ibm-grid-col-lg-16-1 ibm-grid-col-md-8-1"></div>
+                                </div>
+
+                            </div>
+
+                            <div id="ibm-white-section-5" class="ibm-background-white-core ibm-padding-top-90 ibm-padding-bottom-3 ibm-textcolor-black-core">
+                                <div class="ibm-grid-container ibm-textcolor-black">
+                                    <div class="ibm-grid-col-lg-16-1 ibm-grid-col-md-8-1">
+                                    </div>
+                                    <div class="ibm-grid-col-lg-16-14 ibm-grid-col-md-8-6">
+                                        <div class="ibm-grid-container">
+                                            <div class="ibm-grid-col-lg-16-7 ibm-grid-col-md-8-5">
+                                                <h1 class="ibm-h1 ibm-bold">
+                                                    Cognos Analytics makes teamwork simple
+                                                </h1>
+                                            </div>
+                                            <div class="ibm-grid-col-lg-16-9 ibm-grid-col-md-8-3"></div>
+                                        </div>
+                                        <div class="ibm-padding-top-30">
+                                            <div class="ibm-grid-container">
+                                                <div class="ibm-grid-col-lg-16-4 ibm-grid-col-md-8-4 ibm-grid-col-sm-4-4 text-square-container">
+
+                                                    <div id="blue-rectangle-5" class="ibm-background-blue-110 ibm-textcolor-white-core ibm-padding-top-2 ibm-padding-left-1 ibm-padding-right-1 ibm-padding-bottom-2 text-square" style="opacity:0">
+                                                        <p class="ibm-padding-bottom-0" id="textblue10" style="visibility:hidden;">Amber shares her findings with Sandeep ─ her bussines partner ─ using Slack.</p>
+                                                        <div class="right-rectangle" id="right-rectangle-5"></div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="ibm-grid-col-lg-16-12 ibm-grid-col-md-8-4 ibm-grid-col-sm-4-4 image-container">
+                                                    <video class="ibm-image" src="static/videos/05_Sharing.mp4" width=100% playsinline autoplay muted loop></video>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="ibm-padding-top-30">
+                                            <div class="ibm-grid-container">
+                                                <div class="ibm-grid-col-lg-16-5 ibm-grid-col-md-8-8 ibm-grid-col-sm-4-4">
+                                                    <h4 class="ibm-h4 ibm-bold">
+                                                        Share your work via email or slack
+                                                    </h4>
+                                                </div>
+                                                <div class="ibm-grid-col-lg-16-11 ibm-grid-col-md-8-8 ibm-grid-col-sm-4-4">
+                                                    <div class="ibm-grid-container">
+                                                        <div class="ibm-grid-col-lg-16-2 ibm-grid-col-md-8-0 ibm-grid-col-sm-4-0"></div>
+                                                        <div class="ibm-grid-col-lg-16-6 ibm-grid-col-md-8-8 ibm-grid-col-sm-4-4">
+                                                            <h4 class="ibm-h4 ibm-bold">
+                                                                Generate reports in a wide variety of export formats
+                                                            </h4>
+                                                        </div>
+                                                        <div class="ibm-grid-col-lg-16-8 ibm-grid-col-sm-8-8 ibm-grid-col-sm-4-4">
+                                                            <div class="ibm-grid-container">
+                                                                <div class="ibm-grid-col-lg-16-3 ibm-grid-col-md-8-0 ibm-grid-col-sm-4-0"></div>
+                                                                <div class="ibm-grid-col-lg-16-13 ibm-grid-col-md-8-8 ibm-grid-col-sm-4-4">
+                                                                    <h4 class="ibm-h4 ibm-bold">
+                                                                        Keep stakeholders up to date with scheduled delivery
+                                                                    </h4>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="ibm-grid-col-lg-16-1 ibm-grid-col-md-8-1"></div>
+                                    </div>
+
+
+                                    <div class="ibm-grid-col-lg-16-1 ibm-grid-col-md-8-1"></div>
+                                </div>
+                                <!--div class="ibm-grid-container ibm-padding-top-30">
+                                    <div class="ibm-grid-col-lg-16-1"></div>
+                                    <div class="ibm-grid-col-lg-16-5 ibm-grid-col-md-8-3 ibm-grid-col-sm-4-4">
+                                        <h4 class="ibm-h4 ibm-bold">
+                                            Share your work via email or slack
+                                        </h4>
+                                    </div>
+
+                                    <div class="ibm-grid-col-lg-16-5 ibm-grid-col-md-8-3 ibm-grid-col-sm-4-4">
+                                        <h4 class="ibm-h4 ibm-bold">
+                                            Generate reports in a wide variety of export formats
+                                        </h4>
+                                    </div>
+
+                                    <div class="ibm-grid-col-lg-16-4 ibm-grid-col-md-8-2 ibm-grid-col-sm-4-4">
+                                        <h4 class="ibm-h4 ibm-bold">
+                                            Keep stakeholders up to date with scheduled delivery
+                                        </h4>
+                                    </div>
+
+                                </div-->
+
+                            </div>
+
+
+
+                            <div id="ibm-content-main2">
+                                <div class="ibm-grid-container ibm-textcolor-white-core">
+
+                                    <div class=" ibm-grid-col-lg-16-1"></div>
+
+                                    <div class="ibm-grid-col-sm-4-4 ibm-grid-col-md-8-2 ibm-grid-col-lg-16-3" id="sandeeptext">
+                                        <img src="static/images/2_band_sequence/Sandeep_first_sequence.svg" id="Sandeep_first_sequence" style="visibility:hidden">
+                                        <br><br> <span class="ibm-type-e text2"> Meet Sandeep</span><br><br><span class="ibm-type-c ibm-type-c--tight text2-1" id="Meet_Sandeep">Sandeep is the co-owner of Beanie.<br><br>He wears many hats: data analyst, sales,<br> marketing and accounting.<br><br> Product performance is top of mind for him,<br id="br"> so he’s looking to understand how various<br id="br"> products sell in various stores.</span>
+                                    </div>
+
+                                    <div class="ibm-grid-col-sm-4-3 ibm-grid-col-md-8-4 ibm-grid-col-lg-16-7" id="sandeepimage">
+                                        <img src="static/images/2_band_sequence/Sandeep_second_sequence.svg" id="Sandeep_second_sequence" style="visibility:hidden; vertical-align: bottom; ">
+                                    </div>
+                                    <div class="ibm-grid-col-sm-4-2 ibm-grid-col-md-8-2 ibm-grid-col-lg-16-4">
+                                        <img src="static/images/2_band_sequence/Sandeep_third_sequence.svg" id="Sandeep_third_sequence" style="visibility:hidden; ">
+                                    </div>
+                                    <div class=" ibm-grid-col-lg-16-1"></div>
+                                </div>
+
+                            </div>
+
+                            <div id="ibm-white-section-6" class="ibm-background-white-core ibm-padding-top-90 ibm-padding-bottom-3 ibm-textcolor-black-core">
+                                <div class="ibm-grid-container ibm-textcolor-black">
+                                    <div class="ibm-grid-col-lg-16-1 ibm-grid-col-md-8-1">
+                                    </div>
+                                    <div class="ibm-grid-col-lg-16-14 ibm-grid-col-md-8-6">
+                                        <div class="ibm-grid-container">
+                                            <div class="ibm-grid-col-lg-16-6 ibm-grid-col-md-8-5">
+                                                <h1 class="ibm-h1 ibm-bold">
+                                                    Find hidden truths <br>in your data
+                                                </h1>
+                                            </div>
+                                            <div class="ibm-grid-col-lg-16-10 ibm-grid-col-md-8-3"></div>
+                                        </div>
+                                        <div class="ibm-padding-top-30">
+                                            <div class="ibm-grid-container">
+
+                                                <div id="image6" class="ibm-grid-col-lg-16-12 ibm-grid-col-md-8-4 ibm-grid-col-sm-4-4 image-container">
+                                                    <video class="ibm-image final-left-video" src="static/videos/06_Launch_Explore.mp4" width=120% playsinline autoplay muted loop></video>
+                                                </div>
+                                                <div id="text6" class="ibm-grid-col-lg-16-4 ibm-grid-col-md-8-4 ibm-grid-col-sm-4-4 text-square-container">
+
+                                                    <div id="blue-rectangle-6" class="ibm-background-blue-110 ibm-textcolor-white-core ibm-padding-top-2 ibm-padding-left-1 ibm-padding-right-1 ibm-padding-bottom-2 text-square ibm-margin-left-75" style="opacity:0; ">
+                                                        <p id="textblue11" style="visibility:hidden;">Sandeep opens Amber’s Dashboard.</p>
+                                                        <p id="textblue12" style="visibility:hidden;">He looks at the spoilage issue and launches an Exploration to investigate.</p>
+                                                        <p class="ibm-padding-bottom-0" id="textblue13" style="visibility:hidden;">In the details area, he confirms that 65% of their scones spoil.</p>
+                                                        <div class="left-rectangle" id="left-rectangle-6"></div>
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="ibm-grid-col-lg-16-1 ibm-grid-col-md-8-1"></div>
+                                </div>
+
+                            </div>
+
+                            <div id="ibm-white-section-7" class="ibm-background-white-core ibm-padding-bottom-3 ibm-textcolor-black-core">
+                                <div class="ibm-grid-container ibm-textcolor-black">
+                                    <div class="ibm-grid-col-lg-16-1 ibm-grid-col-md-8-1">
+                                    </div>
+                                    <div class="ibm-grid-col-lg-16-14 ibm-grid-col-md-8-6">
+                                        <div class="ibm-padding-top-30">
+                                            <div class="ibm-grid-container">
+
+                                                <div class="ibm-grid-col-lg-16-4 ibm-grid-col-md-8-4 ibm-grid-col-sm-4-4 text-square-container">
+
+                                                    <div id="blue-rectangle-7" class="ibm-background-blue-110 ibm-textcolor-white-core ibm-padding-top-2 ibm-padding-left-1 ibm-padding-right-1 ibm-padding-bottom-2 text-square" style="opacity:0">
+                                                        <p id="textblue14" style="visibility:hidden;">He drills down to see the type of scones and discovers that the ginger scones have the highest rate of spoilage.</p>
+                                                        <p class="ibm-padding-bottom-0" id="textblue15" style="visibility:hidden;">Oh no. The ginger scones are based on his nana’s recipe.</p>
+                                                        <div class="right-rectangle" id="right-rectangle-7"></div>
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="ibm-grid-col-lg-16-12 ibm-grid-col-md-8-4 ibm-grid-col-sm-4-4 image-container">
+                                                    <video class="ibm-image final-right-video" src="static/videos/07_Explore_Drill_down.mp4" width=120% playsinline autoplay muted loop></video>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="ibm-grid-col-lg-16-1 ibm-grid-col-md-8-1"></div>
+                                </div>
+
+                            </div>
+
+                            <div id="ibm-white-section-8" class="ibm-background-white-core ibm-padding-bottom-3 ibm-textcolor-black-core">
+                                <div class="ibm-grid-container ibm-textcolor-black">
+                                    <div class="ibm-grid-col-lg-16-1 ibm-grid-col-md-8-1">
+                                    </div>
+                                    <div class="ibm-grid-col-lg-16-14 ibm-grid-col-md-8-6">
+                                        <div class="ibm-padding-top-30">
+                                            <div class="ibm-grid-container">
+
+                                                <div id="image8" class="ibm-grid-col-lg-16-12 ibm-grid-col-md-8-4 ibm-grid-col-sm-4-4 image-container">
+                                                    <video class="ibm-image final-left-video" src="static/videos/08_Correlations.mp4" width=120% playsinline autoplay muted loop></video>
+                                                </div>
+                                                <div id="text8" class="ibm-grid-col-lg-16-4 ibm-grid-col-md-8-4 ibm-grid-col-sm-4-4 text-square-container">
+
+                                                    <div id="blue-rectangle-8" class="ibm-background-blue-110 ibm-textcolor-white-core ibm-padding-top-2 ibm-padding-left-1 ibm-padding-right-1 ibm-padding-bottom-2 text-square ibm-margin-left-75" style="opacity:0">
+
+                                                        <p class="ibm-padding-bottom-0" id="textblue16" style="visibility:hidden;">Sandeep sees a green badge on one of the axis. Cognos Analytics has uncovered additional insights.</p>
+                                                        <div class="left-rectangle" id="left-rectangle-8"></div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="ibm-grid-col-lg-16-1 ibm-grid-col-md-8-1"></div>
+                                </div>
+
+                            </div>
+
+                            <div id="ibm-white-section-9" class="ibm-background-white-core ibm-padding-bottom-3 ibm-textcolor-black-core">
+                                <div class="ibm-grid-container ibm-textcolor-black">
+                                    <div class="ibm-grid-col-lg-16-1 ibm-grid-col-md-8-1">
+                                    </div>
+                                    <div class="ibm-grid-col-lg-16-14 ibm-grid-col-md-8-6">
+                                        <div class="ibm-padding-top-30">
+                                            <div class="ibm-grid-container">
+
+                                                <div class="ibm-grid-col-lg-16-4 ibm-grid-col-md-8-4 ibm-grid-col-sm-4-4 text-square-container">
+
+                                                    <div id="blue-rectangle-9" class="ibm-background-blue-110 ibm-textcolor-white-core ibm-padding-top-2 ibm-padding-left-1 ibm-padding-right-1 ibm-padding-bottom-2 text-square" style="opacity:0">
+                                                        <p id="textblue17" style="visibility:hidden;">This is the Key Drivers diagram.</p>
+                                                        <p class="ibm-padding-bottom-0" id="textblue18" style="visibility:hidden;">He hovers over the various drivers and then discovers that the 9th Avenue store has the highest rate of spoilage.</p>
+                                                        <div class="right-rectangle" id="right-rectangle-9"></div>
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="ibm-grid-col-lg-16-12 ibm-grid-col-md-8-4 ibm-grid-col-sm-4-4 image-container">
+                                                    <video class="ibm-image final-right-video" src="static/videos/09_Drivers.mp4" width=120% playsinline autoplay muted loop></video>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="ibm-padding-top-30">
+                                                <div class="ibm-grid-container">
+                                                    <div class="ibm-grid-col-lg-16-8 ibm-grid-col-md-8-4 ibm-grid-col-sm-4-4">
+                                                        <h4 class="ibm-h4 ibm-bold">
+                                                            Unearth hidden relationships
+                                                        </h4>
+                                                        <span>
+                                                                Use Explore to find connections you didn’t even know to look&nbsp;for.
+                                                        </span>
+                                                    </div>
+
+                                                    <div class="ibm-grid-col-lg-16-8 ibm-grid-col-md-8-4 ibm-grid-col-sm-4-4">
+                                                        <h4 class="ibm-second-pr ibm-h4 ibm-bold">
+                                                            Quick insights
+                                                        </h4>
+                                                        <span>
+                                                                Each visualization in Explore comes with AI-generated insights presented in plain language.
+                                                            </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="ibm-grid-col-lg-16-1 ibm-grid-col-md-8-1"></div>
+                                </div>
+
+                            </div>
+
+
+                            <div id="ibm-content-main3">
+                                <div class="ibm-grid-container ibm-textcolor-white-core" id="block4">
+                                    <div class="ibm-grid-col-md-8-0 ibm-grid-col-lg-16-1"></div>
+                                    <div class="ibm-grid-col-sm-4-4 ibm-grid-col-md-8-3 ibm-grid-col-lg-16-4" style="padding-top:50px;" id="div_amber_sandeep">
+                                        <span class="text3" style="opacity:0;"> <span class="ibm-type-e">Amber and Sandeep meet</span> <br><br><span class="ibm-type-c ibm-type-c--tight"></p>They decide to run a new promotion:<br><br> They pair up a Brasileiro double shot with a ginger scone and launch it in the store on 9th Avenue.<br><br> To track this promotion, Sandeep and Amber set up a dashboard. </span ></span>
+                                    </div>
+
+                                    <div class="ibm-grid-col-sm-4-3 ibm-grid-col-md-8-2 ibm-grid-col-lg-16-5" style="padding-top:50px;" id="divmeet1">
+                                        <img src="static/images/3_band_sequence/Inside_coffee_first_sequence.svg" id="Inside_coffee_first_sequence" style="visibility:hidden;">
+                                    </div>
+
+                                    <div class="ibm-grid-col-sm-4-3 ibm-grid-col-md-8-3 ibm-grid-col-lg-16-6" id="divmeet2">
+                                        <img src="static/images/3_band_sequence/Inside_coffee_second_sequence.svg" id="Inside_coffee_second_sequence" style="visibility:hidden;">
+                                        <img src="static/images/3_band_sequence/Inside_coffee_second_sequence_responsive.png" id="Inside_coffee_second_sequence_responsive" style="display:none; visibility:hidden;">
+                                    </div>
+
+                                </div>
+
+                                <div class="ibm-grid-container ibm-textcolor-white-core" style="padding-top:50px; padding-bottom:50px;">
+                                    <div class="ibm-grid-col-md-8-0 ibm-grid-col-lg-16-1"></div>
+                                    <div class="ibm-grid-col-sm-4-2 ibm-grid-col-md-8-2 ibm-grid-col-lg-16-4">
+                                        <span class="ibm-type-g" style="position:absolute;" id="week"> A week passes</span>
+                                    </div>
+                                    <div class="ibm-grid-col-sm-4-2 ibm-grid-col-md-8-5 ibm-grid-col-lg-16-10 " style="padding-top:20px;">
+                                        <div class="line"></div>
+                                    </div>
+                                    <div class="ibm-grid-col-md-8-1 ibm-grid-col-lg-16-1"></div>
+                                </div>
+                            </div>
+
+
+                            <div id="ibm-white-section-10" class="ibm-background-white-core ibm-padding-top-90 ibm-padding-bottom-3 ibm-textcolor-black-core">
+                                <div class="ibm-grid-container ibm-textcolor-black">
+                                    <div class="ibm-grid-col-lg-16-1 ibm-grid-col-md-8-1">
+                                    </div>
+                                    <div class="ibm-grid-col-lg-16-14 ibm-grid-col-md-8-6">
+                                        <div class="ibm-grid-container">
+                                            <div class="ibm-grid-col-lg-16-6 ibm-grid-col-md-8-5">
+                                                <h1 class="ibm-h1 ibm-bold">
+                                                    The pivot worked
+                                                </h1>
+                                            </div>
+                                            <div class="ibm-grid-col-lg-16-10 ibm-grid-col-md-8-3"></div>
+                                        </div>
+                                        <div class="ibm-padding-top-30">
+                                            <div class="ibm-grid-container">
+
+                                                <div id="image10" class="ibm-grid-col-lg-16-12 ibm-grid-col-md-8-4 ibm-grid-col-sm-4-4 image-container">
+                                                    <img class="ibm-image" src="static/images/10_promo_tracking.jpg" width=100% />
+                                                </div>
+                                                <div id="text10" class="ibm-grid-col-lg-16-4 ibm-grid-col-md-8-4 ibm-grid-col-sm-4-4 text-square-container">
+                                                    <div id="blue-rectangle-10" class="ibm-background-blue-110 ibm-textcolor-white-core ibm-padding-top-2 ibm-padding-left-1 ibm-padding-right-1 ibm-padding-bottom-2 text-square ibm-margin-left-75" style="opacity:0">
+
+                                                        <p id="textblue19" style="visibility:hidden;">The combo is the top seller at the 9th Avenue store and there is no longer a spoilage problem.</p>
+                                                        <p class="ibm-padding-bottom-0" id="textblue20" style="visibility:hidden;">They can’t wait to launch it at other stores.</p>
+                                                        <div class="left-rectangle" id="left-rectangle-10"></div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="ibm-grid-col-lg-16-1 ibm-grid-col-md-8-1"></div>
+                                </div>
+
+                            </div>
+
+
+                            <div id="ibm-content-main4">
+                                <div class="ibm-grid-container " id="block5">
+                                    <div class="ibm-grid-col-sm-4-3 ibm-grid-col-md-8-4 ibm-grid-col-lg-16-8">
+                                        <img src="static/images/4_band_sequence/Outside_coffee_first_sequence.svg" style="margin-left:-50px; visibility:hidden;" id="Outside_coffee_first_sequence">
+                                    </div>
+                                    <div class="ibm-grid-col-md-8-4 ibm-grid-col-lg-16-8">
+                                        <img src="static/images/4_band_sequence/Outside_coffee_thrid_sequence.svg" id="Outside_coffee_thrid_sequence" style="visibility:hidden;">
+                                    </div>
+                                </div>
+                                <div class="ibm-grid-container ">
+                                    <div class="ibm-grid-col-md-8-3 ibm-grid-col-lg-16-5"></div>
+                                    <div class="ibm-grid-col-sm-4-4 ibm-grid-col-md-8-3 ibm-grid-col-lg-16-6" id="Outside_coffee_second_sequence">
+                                        <img src="static/images/4_band_sequence/Outside_coffee_second_sequence.svg" style="margin-top:-200px; visibility:hidden; padding-bottom:20px;" id="Outside_coffee_second_sequence_pic">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+        </div>
+    </div>
+    </main>
+
+    <div id="ibm-related-content">
+        <div id="ibm-merchandising-module">
+            <!-- MTE will generate this -->
+            <!-- <aside role="complementary" aria-label="Related content"> MTE dynamic modules populate in here. <aside> -->
+            <!-- /MTE -->
+        </div>
+    </div>
+
+    </div>
+
+    <!-- FOOTER_BEGIN -->
+    <div id="ibm-footer-module">
+    </div>
+    <footer role="contentinfo" aria-label="IBM">
+        <div class="back-to-top">
+            <p class="ibm-ind-link ibm-fright">
+                <a class="ibm-top-link ibm-textcolor-black-core" href="#ibm-top"></a>
+            </p>
+        </div>
+
+        <div id="ibm-footer">
+
+            <!--<h2 class="ibm-access">Footer links
+                </h2>
+                <ul>
+                    <li><a href="http://www.ibm.com/contact/us/en/">Contact</a></li>
+                    <li><a href="http://www.ibm.com/privacy/us/en/">Privacy</a></li>
+                    <li><a href="http://www.ibm.com/legal/us/en/">Terms of use</a></li>
+                    <li><a href="http://www.ibm.com/accessibility/us/en/">Accessibility</a></li>
+                </ul>-->
+            <ul class="ibm-padding-bottom-0 ibm-textcolumns-small-2">
+                <li><a href="https://www.ibm.com/contact/us/en/?lnk=flg-cont-usen">Contact IBM</a></li>
+                <li><a href="http://www.ibm.com/privacy/us/en/?lnk=flg-priv-usen">Privacy</a></li>
+                <li><a href="http://www.ibm.com/legal/us/en/?lnk=flg-tous-usen">Terms of use</a></li>
+                <li><a href="http://www.ibm.com/accessibility/us/en/?lnk=flg-acce-usen">Accessibility</a></li>
+                <li class="ibm-feedbacklink"><a href="#">Feedback</a></li>
+                <li id="ibm-truste-cp"><a href="#" onclick="truste.eu.clickListener();return false;">Cookie preferences</a></li>
+            </ul>
+        </div>
+    </footer>
+    <!-- FOOTER_END -->
+    </div>
+
+
+    <script src="static/js/jquery-3.3.1.min.js"></script>
+    
+    <script>
+        $(".scroll").click(function() {
+            //$(".scroll").css("position", "inherit");
+            $('html,body').animate({
+                    scrollTop: $(".section-1").offset().top
+                },
+                'slow');
+        });
+
+        var windowWidth = $(window).width();
+        //window.alert(windowWidth);
+        if (windowWidth <= 1154) {
+            $('#text3').insertBefore('#image3');
+            $('#text6').insertBefore('#image6');
+            $('#text8').insertBefore('#image8');
+            $('#text10').insertBefore('#image10');
+        }
+    </script>
+
+    <script type="text/javascript">
+        var windowWidth = $(window).width();
+        //window.alert(windowWidth);
+        if (windowWidth <= 675) {
+            $('#divlogo').insertBefore('#divtext');
+            $('#divambertext').insertBefore('#divambersecond');
+        }
+
+
+        if (windowWidth <= 671) {
+            $('#divmeet2').insertBefore('#divmeet1');
+        }
+
+        /*if (windowWidth <= 1024) {
+            $('.scroll').removeClass('scroll');
+        }*/
+
+
+
+
+        $(window).scroll(function() {
+
+            //First Screen Animation
+            if ($(window).scrollTop() >= $('#Amber_first_sequence').offset().top - 540) {
+
+                $('.text1').addClass('text');
+            }
+
+            if ($(window).scrollTop() >= $('#Amber_first_sequence').offset().top - 540) {
+
+                $('#Amber_first_sequence').addClass('lefttoright');
+            }
+
+
+
+            if ($(window).scrollTop() >= $('#Amber_first_sequence').offset().top - 540) {
+
+                $('#Amber_second_sequence').addClass('righttoleft');
+            }
+
+            if ($(window).scrollTop() >= $('#Amber_first_sequence').offset().top - 540) {
+
+                $('#Amber_third_sequence').addClass('righttoleftslow');
+            }
+
+
+            //Second Screen Animation
+            if ($(window).scrollTop() >= $('#Sandeep_first_sequence').offset().top - 540) {
+
+                $('.text2').addClass('text');
+                $('.text2-1').addClass('text');
+            }
+
+            if ($(window).scrollTop() >= $('#Sandeep_first_sequence').offset().top - 540) {
+                /*console.log('Scroll '+$(window).scrollTop());
+                console.log('Offset'+ ($('#Sandeep_first_sequence').offset().top - 397));*/
+                /*console.log($(window).scrollTop() - $('#Sandeep_first_sequence').height());*/
+                $('#Sandeep_first_sequence').addClass('lefttoright');
+            }
+            /* else {
+                            $('#Sandeep_first_sequence').removeClass('lefttoright');
+                        }*/
+
+            if ($(window).scrollTop() >= $('#Sandeep_first_sequence').offset().top - 540) {
+
+                $('#Sandeep_second_sequence').addClass('righttoleft');
+            }
+
+            if ($(window).scrollTop() >= $('#Sandeep_first_sequence').offset().top - 540) {
+
+                $('#Sandeep_third_sequence').addClass('righttoleftslow');
+            }
+
+
+
+
+            //Third Screen Animation
+            if ($(window).scrollTop() >= $('.text3').offset().top - 540) {
+
+                $('#Inside_coffee_first_sequence').addClass('righttoleft');
+            }
+
+            if ($(window).scrollTop() >= $('.text3').offset().top - 540) {
+
+                $('#Inside_coffee_second_sequence').addClass('righttoleftslow');
+            }
+
+            if ($(window).scrollTop() >= $('.text3').offset().top - 540) {
+
+                $('#Inside_coffee_second_sequence_responsive').addClass('righttoleftslow');
+            }
+
+            if ($(window).scrollTop() >= $('.text3').offset().top - 540) {
+
+                $('.text3').addClass('text');
+            }
+
+
+            //Fourth Screen Animation
+            if ($(window).scrollTop() >= $('#Outside_coffee_first_sequence').offset().top - 540) {
+
+                $('#Outside_coffee_first_sequence').addClass('lefttoright');
+            }
+
+            if ($(window).scrollTop() >= $('#Outside_coffee_first_sequence').offset().top - 540) {
+
+                $('#Outside_coffee_second_sequence_pic').addClass('righttoleft');
+            }
+
+            if ($(window).scrollTop() >= $('#Outside_coffee_first_sequence').offset().top - 540) {
+
+                $('#Outside_coffee_thrid_sequence').addClass('righttoleftslow');
+            }
+
+            // Text in Square 
+            if ($(window).scrollTop() >= $('#blue-rectangle-1').offset().top - 540) {
+
+                $('#textblue1').addClass('fadeInAnimated');
+            }
+
+            if ($(window).scrollTop() >= $('#blue-rectangle-1').offset().top - 540) {
+
+                $('#textblue2').addClass('fadeInAnimated');
+            }
+            if ($(window).scrollTop() >= $('#blue-rectangle-2').offset().top - 540) {
+
+                $('#textblue3').addClass('fadeInAnimated');
+            }
+            if ($(window).scrollTop() >= $('#blue-rectangle-2').offset().top - 540) {
+
+                $('#textblue4').addClass('fadeInAnimated');
+            }
+            if ($(window).scrollTop() >= $('#blue-rectangle-3').offset().top - 540) {
+
+                $('#textblue5').addClass('fadeInAnimated');
+            }
+            if ($(window).scrollTop() >= $('#blue-rectangle-3').offset().top - 540) {
+
+                $('#textblue6').addClass('fadeInAnimated');
+            }
+            if ($(window).scrollTop() >= $('#blue-rectangle-4').offset().top - 540) {
+
+                $('#textblue7').addClass('fadeInAnimated');
+            }
+            if ($(window).scrollTop() >= $('#blue-rectangle-4').offset().top - 540) {
+
+                $('#textblue8').addClass('fadeInAnimated');
+            }
+            if ($(window).scrollTop() >= $('#blue-rectangle-4').offset().top - 540) {
+
+                $('#textblue9').addClass('fadeInAnimated');
+            }
+            if ($(window).scrollTop() >= $('#blue-rectangle-5').offset().top - 540) {
+
+                $('#textblue10').addClass('fadeInAnimated');
+            }
+            if ($(window).scrollTop() >= $('#blue-rectangle-6').offset().top - 540) {
+
+                $('#textblue11').addClass('fadeInAnimated');
+            }
+            if ($(window).scrollTop() >= $('#blue-rectangle-6').offset().top - 540) {
+
+                $('#textblue12').addClass('fadeInAnimated');
+            }
+            if ($(window).scrollTop() >= $('#blue-rectangle-6').offset().top - 540) {
+
+                $('#textblue13').addClass('fadeInAnimated');
+            }
+            if ($(window).scrollTop() >= $('#blue-rectangle-7').offset().top - 540) {
+
+                $('#textblue14').addClass('fadeInAnimated');
+            }
+            if ($(window).scrollTop() >= $('#blue-rectangle-7').offset().top - 540) {
+
+                $('#textblue15').addClass('fadeInAnimated');
+            }
+            if ($(window).scrollTop() >= $('#blue-rectangle-8').offset().top - 540) {
+
+                $('#textblue16').addClass('fadeInAnimated');
+            }
+            if ($(window).scrollTop() >= $('#blue-rectangle-9').offset().top - 540) {
+
+                $('#textblue17').addClass('fadeInAnimated');
+            }
+            if ($(window).scrollTop() >= $('#blue-rectangle-9').offset().top - 540) {
+
+                $('#textblue18').addClass('fadeInAnimated');
+            }
+            if ($(window).scrollTop() >= $('#blue-rectangle-10').offset().top - 540) {
+
+                $('#textblue19').addClass('fadeInAnimated');
+            }
+            if ($(window).scrollTop() >= $('#blue-rectangle-10').offset().top - 540) {
+
+                $('#textblue20').addClass('fadeInAnimated');
+            }
+
+            //Square
+
+            if ($(window).scrollTop() >= $('#blue-rectangle-1').offset().top - 540) {
+
+                $('#blue-rectangle-1').addClass('scale-in-ver-center');
+            }
+            if ($(window).scrollTop() >= $('#blue-rectangle-2').offset().top - 540) {
+
+                $('#blue-rectangle-2').addClass('scale-in-ver-center');
+            }
+            if ($(window).scrollTop() >= $('#blue-rectangle-3').offset().top - 540) {
+
+                $('#blue-rectangle-3').addClass('scale-in-ver-center');
+            }
+            if ($(window).scrollTop() >= $('#blue-rectangle-4').offset().top - 540) {
+
+                $('#blue-rectangle-4').addClass('scale-in-ver-center');
+            }
+            if ($(window).scrollTop() >= $('#blue-rectangle-5').offset().top - 540) {
+
+                $('#blue-rectangle-5').addClass('scale-in-ver-center');
+            }
+            if ($(window).scrollTop() >= $('#blue-rectangle-6').offset().top - 540) {
+
+                $('#blue-rectangle-6').addClass('scale-in-ver-center');
+            }
+            if ($(window).scrollTop() >= $('#blue-rectangle-7').offset().top - 540) {
+
+                $('#blue-rectangle-7').addClass('scale-in-ver-center');
+            }
+            if ($(window).scrollTop() >= $('#blue-rectangle-8').offset().top - 540) {
+
+                $('#blue-rectangle-8').addClass('scale-in-ver-center');
+            }
+            if ($(window).scrollTop() >= $('#blue-rectangle-9').offset().top - 540) {
+
+                $('#blue-rectangle-9').addClass('scale-in-ver-center');
+            }
+            if ($(window).scrollTop() >= $('#blue-rectangle-10').offset().top - 540) {
+
+                $('#blue-rectangle-10').addClass('scale-in-ver-center');
+            }
+
+        });
+
+
+
+        var position = 0;
+        var total = 100;
+        var sm = 1;
+
+        function changeGradientColors() {
+
+            position += sm;
+            if (position == total)
+                sm = -1;
+            if (position == 0)
+                sm = 1;
+
+            {
+                $('.divider-one').css("background-image", "radial-gradient(circle at center, transparent 0%, transparent 20%, white 22%, white 100%), linear-gradient(to left, #0062ff 0%, rgba(65, 140, 255, 0) " + position + "%, #0062ff )");
+
+                $('.divider-two').css("background-image", "radial-gradient(circle at center, transparent 0%, transparent 20%, white 22%, white 100%), linear-gradient(to left, #20d5d2, rgba(64, 139, 252, 0) " + (total - position) + "%, rgba(55, 159, 241, 0.27), rgba(34, 209, 213, 0.94), #20d5d2)");
+            }
+
+
+            setTimeout(changeGradientColors, 30);
+        }
+
+        changeGradientColors();
+
+        //$(document).ready = function() {
+        for (var i = 1; i <= 10; i++) {
+            var lngth = $('#blue-rectangle-' + i).css("height");
+            var nmr = Number(lngth.substring(0, lngth.length - 2));
+            $('#right-rectangle-' + i).css("margin-top", (19.7988 - nmr) / 2 + 12.5 + "px");
+            $('#left-rectangle-' + i).css("margin-top", (19.7988 - nmr) / 2 + 12.5 + "px");
+        }
+        var windowWidth = $(window).width();
+        if (windowWidth <= 1154) {
+            for (var i = 1; i <= 10; i++) {
+                $('#right-rectangle-' + i).css("margin-top", "25px");
+                $('#left-rectangle-' + i).css("margin-top", "25px");
+
+                $('#right-rectangle-' + i).css("margin-right", "45%");
+                $('#left-rectangle-' + i).css("margin-left", "45%");
+            }
+        }
+
+        var navBarH = $(".ibm-sitenav-menu-container").css("height");
+        var nmr = Number(navBarH.substring(0, navBarH.length - 2));
+        var nmr2 = $(window).height() - 2 * nmr - 60;
+        h_nmr2 = nmr2/2;
+        
+        if ($(window).height() <= 799){
+            $("#content-main-fullscreen").css("height", nmr2);
+        }
+        else if (($(window).height() >= 1080) && ($(window).height() <= 1440)){
+            $("#content-main-fullscreen").css("height", h_nmr2 - 100); 
+        }
+        else if ( $(window).height() > 1440){
+            $("#content-main-fullscreen").css("height", h_nmr2 -200 ); 
+        }
+        else {
+           $("#content-main-fullscreen").css("height", h_nmr2); 
+        }
+        var block1Height = $("#block1").css("height");
+        var nmr3 = Number(block1Height.substring(0, block1Height.length - 2));
+        var nmr4 = (nmr2 - nmr3) / 2
+
+        if ($(window).height() <= 799){
+            $("#block1").css("margin-top", nmr4 - 25 + "px");
+        }
+        else if ($(window).height() >= 1080){
+          $("#block1").css("margin-top", h_nmr2-200  + "px"); 
+        }
+        else if ( $(window).height() > 1440){
+             $("#block1").css("margin-top", h_nmr2-700  + "px"); 
+        }
+        else {
+           $("#block1").css("margin-top", h_nmr2-100  + "px"); 
+        }
+        checkGradientSize = function(itemName){
+
+            $(itemName).css("width", "100%");
+            var gradientW = $(itemName).css("width");
+            var grdnmr = Number(gradientW.substring(0, gradientW.length - 2));
+            var x1 = (grdnmr - 298) % 42;
+            $(itemName).css("width", (grdnmr - x1) + "px"); 
+
+        }
+
+        checkGradientSize("#div-one");
+        checkGradientSize("#div-two");
+        //}
+        window.onresize = function() {
+                checkGradientSize("#div-one");
+                checkGradientSize("#div-two");
+
+                var navBarH = $(".ibm-sitenav-menu-container").css("height");
+        var nmr = Number(navBarH.substring(0, navBarH.length - 2));
+        var nmr2 = $(window).height() - 2 * nmr - 60;
+        h_nmr2 = nmr2/2;
+        
+        if ($(window).height() <= 799){
+            $("#content-main-fullscreen").css("height", nmr2);
+        }
+        else if (($(window).height() >= 1080) && ($(window).height() <= 1440)){
+            $("#content-main-fullscreen").css("height", h_nmr2 - 100); 
+        }
+        else if ( $(window).height() > 1440){
+            $("#content-main-fullscreen").css("height", h_nmr2 -200 ); 
+        }
+        else {
+           $("#content-main-fullscreen").css("height", h_nmr2); 
+        }
+        var block1Height = $("#block1").css("height");
+        var nmr3 = Number(block1Height.substring(0, block1Height.length - 2));
+        var nmr4 = (nmr2 - nmr3) / 2
+
+        if ($(window).height() <= 799){
+            $("#block1").css("margin-top", nmr4 - 25 + "px");
+        }
+        else if ($(window).height() >= 1080){
+          $("#block1").css("margin-top", h_nmr2-200  + "px"); 
+        }
+        else if ( $(window).height() > 1440){
+             $("#block1").css("margin-top", h_nmr2-700  + "px"); 
+        }
+        else {
+           $("#block1").css("margin-top", h_nmr2-100  + "px"); 
+        }
+                /*var navBarH = $(".ibm-sitenav-menu-container").css("height");
+                var nmr = Number(navBarH.substring(0, navBarH.length - 2));
+                var nmr2 = $(window).height() - 2 * nmr - 60;
+                $("#content-main-fullscreen").css("height", nmr2);
+
+                var block1Height = $("#block1").css("height");
+                var nmr3 = Number(block1Height.substring(0, block1Height.length - 2));
+                var nmr4 = (nmr2 - nmr3) / 2
+                $("#block1").css("margin-top", nmr4 - 25 + "px");*/
+
+
+                for (var i = 1; i <= 10; i++) {
+                    var lngth = $('#blue-rectangle-' + i).css("height");
+                    var nmr = Number(lngth.substring(0, lngth.length - 2));
+                    $('#right-rectangle-' + i).css("margin-top", (19.7988 - nmr) / 2 + 12.5 + "px");
+                    $('#left-rectangle-' + i).css("margin-top", (19.7988 - nmr) / 2 + 12.5 + "px");
+
+                    $('#right-rectangle-' + i).css("margin-right", "-48px");
+                    $('#left-rectangle-' + i).css("margin-left", "-48px");
+                }
+                var windowWidth = $(window).width();
+                if (windowWidth <= 1154) {
+                    for (var i = 1; i <= 10; i++) {
+                        $('#right-rectangle-' + i).css("margin-top", "25px");
+                        $('#left-rectangle-' + i).css("margin-top", "25px");
+
+                        $('#right-rectangle-' + i).css("margin-right", "45%");
+                        $('#left-rectangle-' + i).css("margin-left", "45%");
+                    }
+                }
+            }
+            //alert($(window).height());
+    </script>
+    <script>
+        if ($('.back-to-top').length) {
+            var scrollTrigger = 1000, // px
+                backToTop = function() {
+                    var scrollTop = $(window).scrollTop();
+                    if (scrollTop > scrollTrigger) {
+                        $('.back-to-top').addClass('show');
+                    } else {
+                        $('.back-to-top').removeClass('show');
+                    }
+                };
+            backToTop();
+            $(window).on('scroll', function() {
+                backToTop();
+            });
+            $('.back-to-top').on('click', function(e) {
+                e.preventDefault();
+                $('html,body').animate({
+                    scrollTop: 0
+                }, 700);
+            });
+        }
+    </script>
+
+</body>
+
+</html>
